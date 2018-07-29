@@ -1,0 +1,284 @@
+html, body{
+  margin: 0px;
+  padding: 0px;
+  font-style: sans-serif;
+}
+
+/*  PARTE DO CABEÇALHO   */
+
+.cabeçalho {
+  background: url("../img/flower1.jpg");
+  background-size:auto;
+  color: white;
+}
+
+.cabeçalho:hover{
+  padding-bottom: 10%;
+  transition-duration: 1s;
+  font-size: 30pt;
+}
+
+.flor1{
+  width: 30%;
+  min-width: 150px;
+  margin-top: 10px;
+  margin-left: 20px;
+  border-radius: 15px;
+  opacity: 0.92;
+}
+
+.title {
+  margin: 0px;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+
+/*    PARTE DO MENU SUPERIOR     */
+.lista {
+  margin: 0px;
+  background-color: rgb(0, 128, 0);
+  list-style-type: none;
+  padding-left: 20px;
+
+}
+
+.item-lista {
+  display: inline;
+  position: relative;
+  width: 100px;
+  text-align: center;
+}
+
+.item-lista-link{
+  color: white;
+  text-decoration: none;
+  font-size: 14pt;
+  padding: 10px;
+  display: inline-block;
+  width: 80px;
+}
+
+
+/*   SECTION PRINCIPAL   */
+  .conteudo-principal {
+    width: 100%;
+    display: inline-block;
+
+  }
+
+
+/*   ARTICLE   */
+  .conteudo-principal .cntd-article{
+    width: 70%;
+    float: left;
+  }
+
+  .cntd-article h2{
+    text-align: center;
+  }
+
+  .cntd-article .textos{
+    margin: 20px;
+  }
+
+  .cntd-article p{
+    text-indent: 2em;
+  }
+
+
+/* ASIDES*/
+  .cntd-aside{
+    margin-top: 20px;
+    padding: 10px;
+    overflow: auto;
+    background-color:	rgb(0, 128, 0);
+    width: 28%;
+    min-width: 250px;
+
+  }
+
+  .cntd-aside ul{
+    list-style-type: none;
+    color: white;
+    padding: 0px;
+  }
+
+  .cntd-aside li{
+    background-color: black;
+    margin-bottom: 5px;
+    padding: 3px;
+  }
+
+  .posts{
+    text-align: center;
+  }
+
+  .col-sm-4{
+    color: black;
+    background-color: rgb(0, 128, 0);
+    margin: 20px;
+    display: inline-block;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.76);
+    width: 350px;
+
+  }
+
+  .col-image{
+    position: relative;
+    width: 250px;
+  }
+
+  .col-sm-4 .textos{
+    margin: 15px;
+  }
+
+  .col-sm-4 p{
+    color: white;
+  }
+
+  .col-sm-4 a{
+    font-size: 14pt;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color:black;
+    position: relative;
+    text-decoration: none;
+    left: 200px;
+  }
+
+/* PÁGINA SOBRE */
+
+  .page-sobre-container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .page-sobre-container p{
+    text-indent: 2em;
+  }
+
+  .page-sobre-article{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* FIM PÁGINA SOBRE */
+
+
+/* PÁGINA HISTÓRIA */
+
+  .page-historia-container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .page-historia-container p{
+    text-indent: 2em;
+  }
+
+  .page-historia-article{
+    position: relative;
+    float: right;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px;
+  }
+
+  .page-historia-figure{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(0, 128, 0);
+    text-align: center;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+    border: thin solid black;
+  }
+
+  .page-historia-figure img{
+    max-width: 100%;
+  }
+
+  .page-historia-figure figcaption{
+    font-style: oblique;
+    font-weight: bold;
+  }
+
+/* FIM PÁGINA HISTÓRIA */
+
+/* PÁGINA CONTATO */
+
+.principal{
+  width: 60%;
+  /*height: 700px;*/
+  background-color: rgb(208, 208, 208);
+  margin-left: auto;
+  margin-right: auto;
+  /* text-align: center; */
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 13px silver;
+}
+
+.post-content {
+  font-size: 14pt;
+}
+
+.form {
+  margin: 0 auto;
+  max-width: 850px;
+  padding: 20px 10px;
+  border-radius: 8px;
+}
+
+.label-name {
+  display: block;
+  padding-bottom: 5px;
+}
+
+.name {
+  display: block;
+  width: 50%;
+  min-width: 190px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.label-email {
+  display: block;
+  padding-bottom: 5px;
+}
+
+.email {
+  display: block;
+  width: 50%;
+  min-width: 190px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.label-url {
+  display: block;
+  padding-bottom: 5px;
+}
+
+.url {
+  display: block;
+  width: 50%;
+  min-width: 190px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.textarea {
+  display: block;
+  width: 80%;
+  height: 150px;
+}
